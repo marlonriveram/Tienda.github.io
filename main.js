@@ -118,7 +118,7 @@ function ImprimirProductosDOM (listaProductos){
      const productFigure = document.createElement('figure');
     
     const productFigureImg = document.createElement('img');
-    productFigureImg.setAttribute('src','/github-proyectos/frontend-js-practico/icons/bt_add_to_cart.svg');
+    productFigureImg.setAttribute('src','/icons/bt_add_to_cart.svg');
   
     productFigure.append(productFigureImg);
     productInfoDiv.append(precio,productName);
